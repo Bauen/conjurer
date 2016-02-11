@@ -9,10 +9,9 @@ const Conjuree = require('./lib/conjuree');
 
 // Test implementation.
 let machine = new Conjuree();
-machine.setName('Testing');
 machine.setPort(1337);
-machine.setMethod(() => {
-  return 'hiiiii';
+machine.setMethod((data) => {
+  return 'I received this ' + data;
 });
 
 machine.listen();
