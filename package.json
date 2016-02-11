@@ -1,0 +1,31 @@
+{
+  "name": "conjurer",
+  "version": "0.0.1",
+  "description": "Library for defining node machines that can be invoked, and invoking the machines.",
+  "main": "conjurer.js",
+  "scripts": {
+    "lint": "node_modules/.bin/eslint ./**/*.js --",
+    "test": "node_modules/.bin/_mocha --"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bauen/conjurer.git"
+  },
+  "keywords": [
+    "microservices"
+  ],
+  "author": {
+    "name": "Patrick Coffey",
+    "email": "patrickcoffey48@gmail.com",
+    "url": "http://patrickcoffey.io"
+  },
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Bauen/conjurer/issues"
+  },
+  "homepage": "https://github.com/Bauen/conjurer#readme",
+  "devDependencies": {
+    "eslint": "^1.10.3",
+    "mocha": "^2.4.5"
+  }
+}
